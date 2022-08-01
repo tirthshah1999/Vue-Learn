@@ -1,0 +1,12 @@
+You can call fns with both with just name or name() while events. Vue accepts both.
+
+Vue built in $event. Here in case if we want to pass lastName then in methods we will not get event as first parameter, so using below: 
+<input type="text" v-on:input="setName($event, 'SHAH')" />
+
+Modifying events(event modifiers) like prevent default form behavior, other way to do is manally make a method while submitting and prevent it.
+<form v-on:submit.prevent>
+    <input type="text" />
+    <button>Sign Up</button>
+</form>
+
+v-once directive use when you want to preserve the original value even if it changes.
