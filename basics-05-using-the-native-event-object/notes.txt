@@ -1,0 +1,4 @@
+v-model is directive, combination of v-bind:value and v-on:input (2 way data binding)
+
+computed properties enable you to create a property that can be used to modify, manipulate, and display data within your components in a readable and efficient manner. You can use computed properties to calculate and display values based on a value or set of values in the data model.
+Vue aware of their dependencies and only re-render if one of the dependencies change. 
